@@ -65,7 +65,7 @@ article a:hover {
     color: #0085a1;
 }
 
-article h2 {
+article h1, h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin-bottom: 5px;
 }
@@ -81,12 +81,12 @@ article img {
     object-fit: cover;
 }
 
-ul:hover {
-    font-size: 20px;
+ul li {
+    transition: transform 0.3s ease;
 }
 
-.dost:hover {
-    font-size: 20px;
+article span {
+    transition: transform 0.3s ease;
 }
 
 .Advertising {
@@ -98,8 +98,12 @@ ul:hover {
     background: url(/images/билборд.jpg) bottom no-repeat;
 }
 
-.Contacts:hover {
-    font-size: 20px;
+.Contacts {
+    transition: transform 0.3s ease;
     text-decoration: none;
     color: orange;
+}
+
+main {
+    justify-content: center;
 }
