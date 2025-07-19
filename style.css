@@ -85,8 +85,16 @@ ul li {
     transition: transform 0.3s ease;
 }
 
+ul li:hover { 
+    transform: scale(1.1);
+}
+    
 article span {
     transition: transform 0.3s ease;
+}
+
+article span:hover {
+     transform: scale(1.05);
 }
 
 .Advertising {
@@ -102,6 +110,10 @@ article span {
     transition: transform 0.3s ease;
     text-decoration: none;
     color: orange;
+}
+
+.Contacts:hover {
+     transform: scale(1.05);
 }
 
 main {
