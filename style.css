@@ -9,7 +9,7 @@ header {
     justify-content: center;
     height: 400px;
     background-color: #d0d1d3;
-    background: url(/images/Новости.jpg) bottom no-repeat;
+    background: url(./images/Новости.jpg) bottom no-repeat;
     background-size: cover;
 }
 
@@ -95,7 +95,7 @@ ul:hover {
     justify-content: center;
     height: 400px;
     background-color: #d0d1d3;
-    background: url(/images/билборд.jpg) bottom no-repeat;
+    background: url(./images/билборд.jpg) bottom no-repeat;
 }
 
 .Contacts:hover {
