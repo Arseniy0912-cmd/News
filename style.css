@@ -89,12 +89,8 @@ ul li:hover {
     transform: scale(1.05);
 }
     
-article span {
-    transition: transform 0.3s ease;
-}
-
 article span:hover {
-     transform: scale(1.05);
+     font-size: 20px;
 }
 
 .Advertising {
@@ -105,19 +101,18 @@ article span:hover {
     background-color: #d0d1d3;
     background: url(images/билборд.jpg) bottom no-repeat;
     width: 600px;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 
 .Contacts {
-    transition: transform 0.3s ease;
     text-decoration: none;
     color: orange;
 }
 
 .Contacts:hover {
-     transform: scale(1.1);
+     font-size: 20px;
 }
 
 main img {
-    margin-top: 30px;
+    margin-top: 60px;
 }
