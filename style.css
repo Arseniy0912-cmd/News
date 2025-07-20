@@ -109,8 +109,7 @@ ul li:hover {
 }
 
 main img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position:  relative;
+    position: absolute;
     margin-top: 60px;
 }
