@@ -121,6 +121,10 @@ article:nth-child(even) {
     background-color: red;
 }
 
-.A1, .A2::before {
+.A1::before {
+    content: 'New';
+}
+
+.A2::before {
     content: 'New';
 }
