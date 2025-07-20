@@ -109,12 +109,21 @@ ul li:hover {
 }
 
 main img {
-    margin-left: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 425px;
+    background-color: #d0d1d3;
     margin-top: 60px;
 }
 
+main {
+    position: relative;
+}
+
 .spisok {
-    margin-left: 800px;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 article:nth-child(even) {
