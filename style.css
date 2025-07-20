@@ -51,7 +51,7 @@ footer .links > a {
 
 article {
     width: 768px;
-    margin: 0 auto 32px;
+    margin: 5px auto 32px;
     padding: 6px 15px;
     border-bottom: 1px solid rgb(128, 128, 128);
 }
