@@ -100,8 +100,8 @@ article span:hover {
     height: 425px;
     background-color: #d0d1d3;
     background: url(images/билборд.jpg) bottom no-repeat;
-    width: 600px;
     margin-top: 60px;
+    transform: scale(1.5);
 }
 
 .Contacts {
@@ -110,9 +110,12 @@ article span:hover {
 }
 
 .Contacts:hover {
-     font-size: 20px;
+     font-size: 40px;
 }
 
 main img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-top: 60px;
 }
