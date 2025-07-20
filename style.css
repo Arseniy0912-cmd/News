@@ -109,6 +109,10 @@ ul li:hover {
 }
 
 main img {
-    margin-left: 225px;
+    margin-left: 550px;
     margin-top: 60px;
+}
+
+.spisok {
+    margin-left: 700px;
 }
