@@ -114,5 +114,13 @@ main img {
 }
 
 .spisok {
-    margin-left: 700px;
+    margin-left: 800px;
+}
+
+article:nth-child(even) {
+    background-color: red;
+}
+
+.A1, .A2::before {
+    content: 'New';
 }
