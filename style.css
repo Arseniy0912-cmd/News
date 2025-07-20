@@ -89,10 +89,6 @@ ul li:hover {
     transform: scale(1.05);
 }
     
-article span:hover {
-     font-size: 20px;
-}
-
 .Advertising {
     display: flex;
     align-items: center;
@@ -101,7 +97,6 @@ article span:hover {
     background-color: #d0d1d3;
     background: url(images/билборд.jpg) bottom no-repeat;
     margin-top: 60px;
-    transform: scale(1.5);
 }
 
 .Contacts {
@@ -110,7 +105,7 @@ article span:hover {
 }
 
 .Contacts:hover {
-     font-size: 40px;
+     font-size: 33px;
 }
 
 main img {
